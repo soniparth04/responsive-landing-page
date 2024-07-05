@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Restaurant</div>
+    <button class="hamburger" aria-label="Toggle navigation">
+      <span class="hamburger-icon"></span>
+    </button>
+    <ul class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <section id="home">
+      <h1>Welcome to Our Restaurant</h1>
+      <p>Enjoy our delicious meals!</p>
+    </section>
+    <section id="menu">
+      <h1>Our Menu</h1>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src="dish1.jpg" alt="Dish 1">
+          <h2>Dish 1</h2>
+          <p>A delicious dish with fresh ingredients.</p>
+        </div>
+        <div class="menu-item">
+          <img src="dish2.jpg" alt="Dish 2">
+          <h2>Dish 2</h2>
+          <p>A delightful mix of flavors and textures.</p>
+        </div>
+        <div class="menu-item">
+          <img src='https://unsplash.com/photos/a-white-plate-topped-with-a-salad-covered-in-fruit-qMAToTaK2Wk' alt="Dish 3">
+          <h2>Dish 3</h2>
+          <p>A savory dish to satisfy your cravings.</p>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1>About Us</h1>
+      <p>Learn more about our story and our passion for food.</p>
+    </section>
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <p>Get in touch for reservations or inquiries.</p>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
